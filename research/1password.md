@@ -53,3 +53,10 @@ Yes. 1Password supports two-factor authentication using authenticator apps and s
 
 - 1Password Documentation — Two-Factor Authentication
 - 1Password Documentation — Passkeys
+## Is 1Password open source?
+
+No. 1Password's main applications and core infrastructure are closed source. However, the company publishes and contributes to some open-source tools and projects.
+
+### Source
+
+- 1Password Security Documentation
