@@ -49,3 +49,10 @@ Yes. Proton Pass supports passkeys and can create, store, and use them for suppo
 
 - Proton Pass — Passkeys
 - Proton Support — Two-Factor Authentication
+## Is Proton Pass open source?
+
+Yes. Proton Pass client applications are open source, allowing researchers and developers to inspect the code used on their devices.
+
+### Source
+
+- Proton — Proton Pass Open Source
