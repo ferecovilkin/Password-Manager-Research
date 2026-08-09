@@ -28,3 +28,12 @@ KeePass 2 encrypts its database using strong symmetric encryption such as AES-25
 ### Source
 
 - KeePass Official Security Documentation
+## How is the master password protected?
+
+KeePass protects the database using a master key. This key can be based on a master password, a key file, a Windows user account, or a combination of them.
+
+KeePass also uses protection against brute-force and dictionary attacks.
+
+### Source
+
+- KeePass Documentation — Master Key
