@@ -39,3 +39,13 @@ Bitwarden uses AES-CBC 256-bit encryption to protect vault data. The encryption 
 ### Source
 
 - Bitwarden Documentation — What encryption is used?
+## How is the master password protected?
+
+Bitwarden does not store the user's master password on its servers. The master password is processed on the user's device and is used to derive the cryptographic keys needed to protect the vault.
+
+Because Bitwarden follows a zero-knowledge model, it does not have access to the user's master password or the unencrypted vault data.
+
+### Sources
+
+- Bitwarden Security Whitepaper
+- Bitwarden Security FAQs
