@@ -44,3 +44,11 @@ KeePass 2 supports AES-KDF and Argon2 for key derivation. These functions make p
 ### Source
 
 - KeePass Documentation — Security
+
+## Does KeePass 2 support two-factor protection?
+
+KeePass 2 can combine a master password with a key file for two-factor protection. Both components are required to open the database.
+
+### Source
+
+- KeePass Documentation — Master Key
