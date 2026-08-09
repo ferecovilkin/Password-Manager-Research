@@ -37,3 +37,10 @@ KeePass also uses protection against brute-force and dictionary attacks.
 ### Source
 
 - KeePass Documentation — Master Key
+## What KDF does KeePass 2 use?
+
+KeePass 2 supports AES-KDF and Argon2 for key derivation. These functions make password guessing and brute-force attacks more difficult.
+
+### Source
+
+- KeePass Documentation — Security
