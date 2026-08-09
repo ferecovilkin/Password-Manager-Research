@@ -52,3 +52,10 @@ KeePass 2 can combine a master password with a key file for two-factor protectio
 ### Source
 
 - KeePass Documentation — Master Key
+## Is KeePass 2 open source?
+
+Yes. KeePass 2 is free and open-source software. Its source code is publicly available and the project is licensed under the GNU GPL.
+
+### Source
+
+- KeePass Official Website
