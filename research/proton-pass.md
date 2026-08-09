@@ -41,3 +41,11 @@ Proton uses password-based key derivation as part of its account security and en
 ### Source
 
 - Proton Pass Security Documentation
+## Does Proton Pass support MFA and passkeys?
+
+Yes. Proton Pass supports passkeys and can create, store, and use them for supported accounts. Proton accounts can also be protected with two-factor authentication.
+
+### Sources
+
+- Proton Pass — Passkeys
+- Proton Support — Two-Factor Authentication
