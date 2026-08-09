@@ -1,10 +1,10 @@
 # 🔐 Password Manager Security Research
 
-This project compares popular password managers from a security perspective.
+A security-focused comparison of popular password managers and the methods they use to protect user credentials.
 
 ## 🔎 Password Managers
 
-The following password managers are included in this research:
+This project focuses on four popular password managers:
 
 - Bitwarden
 - KeePass 2
@@ -13,7 +13,7 @@ The following password managers are included in this research:
 
 ## 🎯 Research Areas
 
-For each password manager, the project examines:
+Each password manager is examined based on:
 
 - Password storage
 - Encryption methods
@@ -21,10 +21,10 @@ For each password manager, the project examines:
 - Multi-Factor Authentication (MFA)
 - Passkey support
 - Open-source availability
-- Local or cloud storage
+- Local vs. cloud storage
 - Security audits
 - Known vulnerabilities and incidents
-- Privacy and zero-knowledge architecture
+- Zero-knowledge architecture
 
 ## 📊 Security Comparison
 
@@ -35,17 +35,37 @@ For each password manager, the project examines:
 | 1Password | Cloud | AES-GCM-256 | PBKDF2-HMAC-SHA256 | ❌ No | ✅ Yes |
 | Proton Pass | Cloud | AES-256 | Password-based KDF | 🟡 Client apps | ✅ Yes |
 
-## 📁 Research
+## 📁 Detailed Research
 
-Detailed research for each password manager can be found in the `research/` directory:
+More detailed notes and official sources are available for each password manager:
 
 - [Bitwarden Security Research](research/bitwarden.md)
 - [KeePass 2 Security Research](research/keepass2.md)
 - [1Password Security Research](research/1password.md)
 - [Proton Pass Security Research](research/proton-pass.md)
 
+## 🔍 Key Findings
+
+The research shows that these password managers use different approaches to credential security.
+
+**KeePass 2** follows a local-first model where the encrypted database remains under the user's control.
+
+**Bitwarden** provides an open-source, zero-knowledge architecture with cloud synchronization and self-hosting support.
+
+**1Password** uses a cloud-based security model that combines the account password with a unique Secret Key.
+
+**Proton Pass** uses end-to-end encryption and provides open-source client applications.
+
 ## 📝 Conclusion
 
-Each password manager uses a different security model. KeePass 2 focuses on local storage, while Bitwarden, 1Password, and Proton Pass provide encrypted cloud-based synchronization.
+There is no single feature that determines whether a password manager is secure.
 
-A secure password manager depends on more than encryption alone. Key derivation, authentication, software implementation, security audits, and user practices are also important.
+Encryption, key derivation, authentication, software implementation, security audits, and user practices all contribute to overall security.
+
+The main difference between these password managers is how they balance security, storage, transparency, and convenience.
+
+## ⚠️ Disclaimer
+
+This project was created for educational and cybersecurity research purposes.
+
+The information is based primarily on publicly available official documentation and security reports. Security features may change over time, so the original sources should be checked for the latest information.
