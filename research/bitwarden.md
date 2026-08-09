@@ -72,3 +72,14 @@ These features add an extra layer of protection against account takeover and phi
 
 - Bitwarden Documentation — FIDO2 WebAuthn
 - Bitwarden Documentation — Passkeys
+## Is Bitwarden open source?
+
+Yes. Bitwarden is open source, and its source code is publicly available on GitHub.
+
+Important parts of the project are available in separate repositories. For example, the `server` repository contains backend and infrastructure code, while the `clients` repository contains the web app, browser extension, desktop app, and CLI code. Bitwarden also publishes separate repositories for its Android and iOS applications.
+
+Being open source allows security researchers and developers to review the code, report security issues, and contribute to the project.
+
+### Source
+
+- Bitwarden Official GitHub Organization
