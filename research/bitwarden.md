@@ -23,3 +23,19 @@ Bitwarden encrypts a user's vault data on the device before it is sent to the se
 ### Source
 
 - Bitwarden Documentation — Data Storage
+
+  ## How is the password vault encrypted?
+
+Bitwarden uses AES-CBC 256-bit encryption to protect vault data. The encryption happens locally on the user's device before the data is sent to Bitwarden's servers. Because Bitwarden uses a zero-knowledge model, the company cannot access the unencrypted contents of the vault.
+
+### Source
+
+- Bitwarden Documentation — What encryption is used?
+
+## How is the password vault encrypted?
+
+Bitwarden uses AES-CBC 256-bit encryption to protect vault data. The encryption happens locally on the user's device before the data is sent to Bitwarden's servers. Because Bitwarden uses a zero-knowledge model, the company cannot access the unencrypted contents of the vault.
+
+### Source
+
+- Bitwarden Documentation — What encryption is used?
