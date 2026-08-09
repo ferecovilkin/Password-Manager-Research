@@ -83,3 +83,18 @@ Being open source allows security researchers and developers to review the code,
 ### Source
 
 - Bitwarden Official GitHub Organization
+## Security audits and known incidents
+
+Bitwarden regularly undergoes third-party security assessments, including penetration testing and source code reviews. Security firms such as Cure53 have been involved in assessments of Bitwarden products.
+
+Bitwarden has also been studied by independent security researchers. Researchers from ETH Zurich analyzed parts of Bitwarden's cryptographic design using a malicious-server threat model, and Bitwarden published information about the findings and resulting improvements.
+
+In 2026, Bitwarden also reported a supply-chain security incident involving the npm distribution of its CLI package. According to the available reports, the incident affected the CLI distribution channel rather than representing a compromise of Bitwarden's main vault infrastructure.
+
+These examples show that even security-focused and open-source software can have vulnerabilities or supply-chain risks, making independent audits and continuous security testing important.
+
+### Sources
+
+- Bitwarden — Third-Party Security Audits
+- Bitwarden — ETH Zurich Cryptography Audit
+- Bitwarden Security Whitepaper
