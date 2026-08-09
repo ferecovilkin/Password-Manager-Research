@@ -39,10 +39,10 @@ For each password manager, the project examines:
 
 Detailed research for each password manager can be found in the `research/` directory:
 
-- `research/bitwarden.md`
-- `research/keepass2.md`
-- `research/1password.md`
-- `research/proton-pass.md`
+- [Bitwarden Security Research](research/bitwarden.md)
+- [KeePass 2 Security Research](research/keepass2.md)
+- [1Password Security Research](research/1password.md)
+- [Proton Pass Security Research](research/proton-pass.md)
 
 ## 📝 Conclusion
 
