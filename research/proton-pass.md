@@ -56,3 +56,11 @@ Yes. Proton Pass client applications are open source, allowing researchers and d
 ### Source
 
 - Proton — Proton Pass Open Source
+## Security Audits and Vulnerabilities
+
+Proton Pass has undergone independent security audits by firms including Cure53 and Recurity Labs. These audits identified security issues that Proton addressed through updates.
+
+### Sources
+
+- Proton Pass — Security Audit
+- Proton Pass — Open Source Security Audit
