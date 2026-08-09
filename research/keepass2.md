@@ -21,3 +21,10 @@ KeePass 2 stores passwords locally in an encrypted `.kdbx` database file. Unlike
 ### Source
 
 - KeePass Official Documentation
+## How is the database encrypted?
+
+KeePass 2 encrypts its database using strong symmetric encryption such as AES-256 or ChaCha20. It also uses key derivation methods such as Argon2 or AES-KDF to make brute-force attacks more difficult.
+
+### Source
+
+- KeePass Official Security Documentation
