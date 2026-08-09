@@ -60,3 +60,15 @@ Users can configure the KDF and its parameters in their Bitwarden account settin
 ### Source
 
 - Bitwarden Documentation — KDF Algorithms
+## Does Bitwarden support MFA and passkeys?
+
+Yes. Bitwarden supports multiple methods of two-step login, including FIDO2 WebAuthn.
+
+FIDO2 WebAuthn can be used with hardware security keys and provides phishing-resistant authentication. Bitwarden also supports passkeys and can store them inside the encrypted vault for use when signing in to supported websites and services.
+
+These features add an extra layer of protection against account takeover and phishing attacks.
+
+### Sources
+
+- Bitwarden Documentation — FIDO2 WebAuthn
+- Bitwarden Documentation — Passkeys
