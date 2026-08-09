@@ -29,3 +29,10 @@
 ### Source
 
 - 1Password Security Documentation
+## How is the account password protected?
+
+1Password uses PBKDF2-HMAC-SHA256 to strengthen the account password. The account password is also combined with a unique Secret Key to protect the account and vault data.
+
+### Source
+
+- 1Password Security Documentation
