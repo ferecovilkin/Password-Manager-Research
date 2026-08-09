@@ -59,3 +59,12 @@ Yes. KeePass 2 is free and open-source software. Its source code is publicly ava
 ### Source
 
 - KeePass Official Website
+## Security Issues
+
+KeePass has had several reported security issues over time. Some older issues, including database header authentication problems, were addressed in later versions.
+
+KeePass also documents known security concerns and their current status on its official website.
+
+### Source
+
+- KeePass Documentation — Security Issues
