@@ -34,3 +34,10 @@ Proton uses a zero-knowledge architecture, so the account password is not stored
 ### Source
 
 - Proton Pass Security Model
+## What key derivation method does Proton Pass use?
+
+Proton uses password-based key derivation as part of its account security and encryption architecture. The derived keys are used within Proton's zero-knowledge encryption model.
+
+### Source
+
+- Proton Pass Security Documentation
