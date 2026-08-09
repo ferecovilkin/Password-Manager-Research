@@ -60,3 +60,13 @@ No. 1Password's main applications and core infrastructure are closed source. How
 ### Source
 
 - 1Password Security Documentation
+## Security Audits and Incidents
+
+1Password regularly undergoes independent security assessments and penetration testing. It also runs a bug bounty program for reporting security vulnerabilities.
+
+In 2023, 1Password reported suspicious activity related to the Okta security incident, but stated that no user data was compromised.
+
+### Source
+
+- 1Password Security Assessments
+- 1Password Security Documentation
