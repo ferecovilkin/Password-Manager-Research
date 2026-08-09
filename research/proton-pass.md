@@ -27,3 +27,10 @@ Proton Pass uses end-to-end encryption to protect vault data. Each vault uses a 
 ### Source
 
 - Proton Pass Security Documentation
+## How is the account password protected?
+
+Proton uses a zero-knowledge architecture, so the account password is not stored in plaintext by Proton. It is used to help derive the cryptographic keys needed to access encrypted data.
+
+### Source
+
+- Proton Pass Security Model
