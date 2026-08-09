@@ -13,3 +13,11 @@
 5. Does 1Password support MFA and passkeys?
 6. Is 1Password open source?
 7. What security audits, vulnerabilities, or incidents are known?
+   
+## Where does 1Password store passwords?
+
+1Password encrypts vault data on the user's device before it is synced to the cloud. The servers store encrypted vault data, while encryption and decryption happen on the user's device.
+
+### Source
+
+- 1Password Security Documentation
