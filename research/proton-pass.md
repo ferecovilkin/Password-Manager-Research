@@ -20,3 +20,10 @@ Proton Pass encrypts vault data on the user's device before it is synced to Prot
 ### Source
 
 - Proton Pass Security Documentation
+## How is the vault encrypted?
+
+Proton Pass uses end-to-end encryption to protect vault data. Each vault uses a unique 256-bit AES key, and encryption and decryption happen on the user's device.
+
+### Source
+
+- Proton Pass Security Documentation
