@@ -13,3 +13,11 @@ KeePass 2 is an open-source password manager that stores passwords in a local en
 5. Does KeePass 2 support MFA?
 6. Is KeePass 2 open source?
 7. What security audits, vulnerabilities, or incidents are known?
+
+## Where does KeePass 2 store passwords?
+
+KeePass 2 stores passwords locally in an encrypted `.kdbx` database file. Unlike cloud-based password managers, KeePass does not require a central server to store the vault.
+
+### Source
+
+- KeePass Official Documentation
