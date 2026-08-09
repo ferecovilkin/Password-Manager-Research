@@ -49,3 +49,14 @@ Because Bitwarden follows a zero-knowledge model, it does not have access to the
 
 - Bitwarden Security Whitepaper
 - Bitwarden Security FAQs
+## What KDF does Bitwarden use?
+
+Bitwarden supports two Key Derivation Functions (KDF): PBKDF2-SHA256 and Argon2id.
+
+A KDF makes the master password harder to attack by increasing the computational cost of password guessing. PBKDF2 does this mainly through repeated iterations, while Argon2id also uses memory, which makes large-scale brute-force attacks more expensive.
+
+Users can configure the KDF and its parameters in their Bitwarden account settings.
+
+### Source
+
+- Bitwarden Documentation — KDF Algorithms
