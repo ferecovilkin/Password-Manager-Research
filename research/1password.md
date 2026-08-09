@@ -21,3 +21,11 @@
 ### Source
 
 - 1Password Security Documentation
+  
+## How is the vault encrypted?
+
+1Password uses AES-GCM-256 encryption to protect vault data. The data is encrypted locally on the user's device before being sent to 1Password's servers.
+
+### Source
+
+- 1Password Security Documentation
