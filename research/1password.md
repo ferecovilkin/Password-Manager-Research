@@ -45,3 +45,11 @@ The Secret Key is not a traditional two-factor authentication method.
 ### Source
 
 - 1Password Documentation — Secret Key Security
+## Does 1Password support MFA and passkeys?
+
+Yes. 1Password supports two-factor authentication using authenticator apps and security keys. It can also store, manage, and use passkeys for supported websites and apps.
+
+### Sources
+
+- 1Password Documentation — Two-Factor Authentication
+- 1Password Documentation — Passkeys
